@@ -1,4 +1,4 @@
-package Sudoku;
+package sudoku;
 import java.util.*;
 
 public class SudokuSolver {
@@ -6,7 +6,15 @@ public class SudokuSolver {
 	  private static final int GRID_SIZE = 9;
 	  
 	  public static void main(String[] args) {
-		  int a,b,c,d,e,f,g,h,i;
+		  int a;
+		  int b;
+		  int c;
+		  int d;
+		  int e;
+		  int f;
+		  int g;
+		  int h;
+		  int i;
 		  Random random = new Random();
 		  a = random.nextInt(10);
 		  b = random.nextInt(10);
